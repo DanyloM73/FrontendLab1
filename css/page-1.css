@@ -1,3 +1,5 @@
+/* General styles */
+
 body {
   font-family: "SUSE", sans-serif;
   font-weight: 400;
@@ -20,6 +22,8 @@ body {
   -moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
+
+/* Header section styles */
 
 .header {
   position: sticky;
@@ -90,6 +94,8 @@ body {
   transform: scale(1.1);
 }
 
+/* Links section styles (styles for links are also used in sidebar sections)*/
+
 .links-section {
   min-width: 100%;
   padding: 30px 70px;
@@ -131,6 +137,8 @@ body {
   transform: scaleX(1); 
 }
 
+/* Main wrapper styles */
+
 .main-wrapper {
   min-width: 100%;
   display: flex;
@@ -138,6 +146,8 @@ body {
   gap: 25px;
   margin-bottom: 10px;
 }
+
+/* Sidebar sections styles */
 
 .left-sidebar, .right-sidebar {
   position: sticky;
@@ -149,6 +159,8 @@ body {
   padding: 30px 70px;
   z-index: 100;
 }
+
+/* Main section styles */
 
 .main {
   display: flex;
@@ -180,6 +192,8 @@ body {
   font-size: 17px;
   font-weight: 200;
 }
+
+/* Media queries */
 
 @media (min-width: 1900px) {
   body {
